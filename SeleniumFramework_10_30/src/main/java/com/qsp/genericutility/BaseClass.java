@@ -53,6 +53,7 @@ public class BaseClass {
 		homepage = new HomePage(driver);
 		loginpage = new LoginPage(driver);
 		
+		
 		homepage.getLoginLink().click();
 		loginpage.getEmailTextField().sendKeys(email);
 		loginpage.getPasswordTextField().sendKeys(pwd);

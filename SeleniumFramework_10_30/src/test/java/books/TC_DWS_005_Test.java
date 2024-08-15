@@ -8,6 +8,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qsp.genericutility.BaseClass;
+import com.qsp.genericutility.ExcelUtility;
 import com.qsp.genericutility.ListenerUtility;
 
 @Listeners(ListenerUtility.class)
@@ -17,6 +18,7 @@ public class TC_DWS_005_Test extends BaseClass
 	public void clickOnButton() throws EncryptedDocumentException, IOException
 	{
 		homepage.getBooksLink().click();
+		excelutility = new ExcelUtility();
 		String ExpectedTitle = excelutility.getStringDataFromExcel("Books", 1, 0);
 		String actualTitle = driver.getTitle();		
 		Assert.assertEquals(actualTitle, ExpectedTitle, "Books page is not working/dispayed");
