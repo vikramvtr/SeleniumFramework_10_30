@@ -2,51 +2,22 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Books page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Test Scrips is Passed]]>
+      <![CDATA[Poll scm class added and executed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-15T11:48:48 IST" name="Default suite" finished-at="2024-08-15T11:49:00 IST" duration-ms="11943">
+  <suite started-at="2024-08-16T11:52:25 IST" name="Default suite" finished-at="2024-08-16T11:52:25 IST" duration-ms="89">
     <groups>
     </groups>
-    <test started-at="2024-08-15T11:48:48 IST" name="Default test" finished-at="2024-08-15T11:49:00 IST" duration-ms="11943">
-      <class name="books.TC_DWS_005_Test">
-        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:books.TC_DWS_005_Test@7eac9008]" started-at="2024-08-15T11:48:48 IST" name="LaunchBrowser" finished-at="2024-08-15T11:48:55 IST" duration-ms="6487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method is-config="true" signature="LoginPages()[pri:0, instance:books.TC_DWS_005_Test@7eac9008]" started-at="2024-08-15T11:48:55 IST" name="LoginPages" finished-at="2024-08-15T11:48:57 IST" duration-ms="2160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPages -->
-        <test-method signature="clickOnButton()[pri:0, instance:books.TC_DWS_005_Test@7eac9008]" started-at="2024-08-15T11:48:57 IST" name="clickOnButton" finished-at="2024-08-15T11:48:59 IST" duration-ms="2583" status="PASS">
+    <test started-at="2024-08-16T11:52:25 IST" name="Default test" finished-at="2024-08-16T11:52:25 IST" duration-ms="89">
+      <class name="login.PollScmTest">
+        <test-method signature="poll()[pri:0, instance:login.PollScmTest@515c6049]" started-at="2024-08-16T11:52:25 IST" name="poll" finished-at="2024-08-16T11:52:25 IST" duration-ms="23" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Books page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Test Scrips is Passed]]>
+              <![CDATA[Poll scm class added and executed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- clickOnButton -->
-        <test-method is-config="true" signature="ClosePage()[pri:0, instance:books.TC_DWS_005_Test@7eac9008]" started-at="2024-08-15T11:49:00 IST" name="ClosePage" finished-at="2024-08-15T11:49:00 IST" duration-ms="360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosePage -->
-        <test-method is-config="true" signature="LogoutPage()[pri:0, instance:books.TC_DWS_005_Test@7eac9008]" started-at="2024-08-15T11:49:00 IST" name="LogoutPage" finished-at="2024-08-15T11:49:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutPage -->
-      </class> <!-- books.TC_DWS_005_Test -->
+        </test-method> <!-- poll -->
+      </class> <!-- login.PollScmTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
